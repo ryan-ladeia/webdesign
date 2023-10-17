@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+ .contato{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+ }
+
+ .contato .conteudo{
+   max-width: 800px ;
+   text-align: center;
+ }
+
+ .contato .conteudo h2{
+   font-size: 36px;
+   font-weight: 500;
+   color: white;
+ }
+
+ .contato .conteudo p{
+   font-weight: 300;
+   color: white;
+ }
+
+ .container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+ }
+
+ .container .informacoes{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .container .informacoes .box{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+ }
+
+ .container .informacoes .box .icon{
+   min-width: 60px;
+   height: 60px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 22px;
+ }
+
+ .container .informacoes .box .icon .text{
+   display: flex;
+   margin-left: 20px;
+   font-size: 16px;
+   color: #fff;
+   flex-direction: column;
+   font-weight: 300;
+ }
+
+ .container .informacoes .box .icon .text h3{
+   font-weight: 500;
+   color: white;
+ }
+
+ .form{
+   width: 80%;
+   padding: 40px;
+   background-color: whitesmoke;
+ }
+
+ .form h2{
+   font-size: 30px;
+   color: #333;
+   font-weight: 500;
+ }
+
+ .form .inputbox{
+   position: relative;
+   width: 100%;
+   margin-top: 10px;
+ }
+
+ .form .inputbox input,
+ .form .inputbox input textarea{
+   width: 100%;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid #333;
+   outline: none;
+   resize: none;
+ }
+
+ .form .inputbox input span{
+   position: absolute;
+   left: 0;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   pointer-events: none;
+   transition: 0.5s;
+   color: #666;
+ }
+
+ .form .inputbox input: :focus ~ span{
+   color: #4e1296;
+   font-size: 12px;
+   
+ }
